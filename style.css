@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 1.2vw;
+    background-color: #111;
+    color: #fff;
+}
+body h1{
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+    margin-bottom: 2vw;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(121, 121, 121);
+    margin-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+table, th, td {
+    border: 2px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+tbody input{
+    width: 80%;
+    height: 3vw;
+    background-color: rgb(182, 180, 180);
+    color: #000;
+    border: none;
+    font-size: 1.5vw;
+}
+tbody select{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(182, 180, 180);
+    color: #000;
+}
+#TruckNum{
+    font-size: 1.5vw;
+    color: #000;
+    font-weight: 600;
+}
+
+
+
+@media (max-width: 600px) {
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #111;
+        color: #fff;
+        overflow: hidden;
+    }
+    body h1{
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 9vw;
+        margin-bottom: 4vw;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: rgb(121, 121, 121);
+        margin-bottom: 1vw;
+        overflow: hidden;
+    }
+    table, th, td {
+        border: 2px solid black;
+    }
+    th, td {
+        padding: 8px;
+        text-align: center;
+        /* background-color: #4CAF50; */
+    }
+    button {
+        padding: 10px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+    .button-container {
+        display: flex;
+        gap: 10px;
+    }
+    thead{
+        width: 100%;
+    }
+    thead th{
+        font-size: 3vw;
+    }
+    tbody input{
+        width: 100%;
+        height: 5vw;
+        background-color: rgb(182, 180, 180);
+        color: #000;
+        border: none;
+        font-size: 4.1vw;
+    }
+    tbody select{
+        width: 54%;
+        height: 100%;
+        background-color: rgb(182, 180, 180);
+        color: #000;
+        overflow: hidden;
+        font-weight: 400;
+    }
+    #TruckNum{
+        font-size: 4vw;
+        color: #000;
+        font-weight: 600;
+    }   
+    thead #a{
+        width: 22px;
+        padding: 5px 5px;
+    }
+    thead #b{
+        width: 50px;
+        padding: 5px 20px;
+    }
+    thead #c{
+    width: 50px;
+    padding: 5px 20px;
+    }
+    thead #d{
+    width: 60px;
+    padding: 5px;
+    }
+    thead #e{
+    width: 45px;
+    }
+
+
+}

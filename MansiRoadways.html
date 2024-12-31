@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transport Data Entry</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Daily Truck Data Entry</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th id="a">Truck <br> Number</th>
+                    <th id="b">From</th>
+                    <th id="c">To</th>
+                    <th id="d">Transport <br> Name</th>
+                    <th id="e">Load/
+                    <br>Unload</th>
+                </tr>
+            </thead>
+            <tbody id="truckData">
+                <!-- Rows will be dynamically added here -->
+            </tbody>
+        </table>
+        <div class="button-container">
+            <button onclick="saveData()">Save Daily Data</button>
+            <button onclick="navigateToFile()">View Weekly File</button>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
